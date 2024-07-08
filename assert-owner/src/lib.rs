@@ -1,3 +1,5 @@
+#![allow(warnings)]
+
 use solana_program::{
     account_info::AccountInfo, entrypoint, entrypoint::ProgramResult, msg,
     program_error::ProgramError, pubkey::Pubkey,

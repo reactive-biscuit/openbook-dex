@@ -1,6 +1,7 @@
-#![deny(unaligned_references)]
+//#![deny(unaligned_references)]
 #![allow(dead_code)]
 #![allow(clippy::too_many_arguments)]
+#![allow(warnings)]
 
 use std::borrow::Cow;
 use std::cmp::{max, min};
